@@ -1,0 +1,47 @@
+.music .box {
+  margin: 14px;
+}
+.music .text {
+  padding: 30px;
+}
+
+.music .images {
+  width: 550px;
+  height: 210px;
+}
+.music img {
+  width: 520px;
+  height: 220px;
+  object-fit: cover;
+}
+.music h1 {
+  font-size: 22px;
+}
+
+.images {
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .music .box {
+    margin: 12px;
+    margin-top: -10px;
+  }
+
+  .music .text {
+    padding: 0 10px;
+  }
+
+  .music .images {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+  }
+  .music img {
+    width: 190px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .music h1 {
+    font-size: 22px;
+  }
+}
